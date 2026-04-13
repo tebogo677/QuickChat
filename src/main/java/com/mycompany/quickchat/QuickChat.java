@@ -14,16 +14,16 @@ public class QuickChat {
         System.out.println("Enter your firstname: ");
         String firstname = scan.next();
         
-        System.out.print("Enter your lastname: ");
+        System.out.println("Enter your lastname: ");
         String lastname = scan.next();
         
-        System.out.print("Enter your username: ");
+        System.out.println("Enter your username: ");
         String username = scan.next();
         
-        System.out.print("Enter your password: ");
+        System.out.println("Enter your password: ");
         String password = scan.next();
         
-        System.out.print("Enter your cellphone: ");
+        System.out.println("Enter your cellphone: ");
         String cellphone = scan.next();
         
         String output = Login.registerUser(firstname, lastname, username, password, cellphone);
