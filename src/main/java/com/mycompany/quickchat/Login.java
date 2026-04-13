@@ -4,6 +4,7 @@
  */
 package com.mycompany.quickchat;
 
+//
 
 class Login {
     static String registeredUsername = "";
@@ -26,7 +27,7 @@ class Login {
             return false;
         }
     }
-    
+    //my checkpassword method
     static boolean checkPasswordComplexity(String password){
         boolean hasUpperCase = false;
         boolean hasSpecial = false;
