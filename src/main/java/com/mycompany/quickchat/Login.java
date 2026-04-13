@@ -61,7 +61,7 @@ class Login {
             return false;
         }
     }
-    
+     // check idf the cell phpne is valid (must contain 10 digits)
     static boolean checkCellPhoneNumber(String cellphone){
         if(cellphone.startsWith("+27") == true && cellphone.length() == 12){
             String part1 = cellphone.substring(3, 4);
@@ -73,7 +73,7 @@ class Login {
             String part7 = cellphone.substring(9, 10);
             String part8 = cellphone.substring(10, 11);
             String part9 = cellphone.substring(11, 12);
-            
+           // writing my if statement logic 
             if(part1.matches("\\d") == true && part2.matches("\\d") == true && 
                part3.matches("\\d") == true && part4.matches("\\d") == true && 
                part5.matches("\\d") == true && part6.matches("\\d") == true && 
@@ -87,7 +87,7 @@ class Login {
             return false;
         }
     }
-    
+    // user entering personal information to register
     static String registerUser(String firstname, String lastname, String username, String password, String cellphone){
         String errorMessages = "";
         
